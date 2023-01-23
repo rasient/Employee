@@ -6,4 +6,5 @@ url examples:<br />
 Get All Employees --> GET http://localhost:8080/employees<br />
 Get One Employee --> GET http://localhost:8080/employees/1 <br />
 Add Employee --> POST http://localhost:8080/employees with header Content-type application/json and body {"name": "Samwise Gamgee", "role": "gardener"}<br />
+Replace Employee --> PUT http://localhost:8080/employees/1 with header Content-type application/json and body {"name": "Gandalf", "role": "wizard"}<br />
 Delete Employee --> DELETE http://localhost:8080/employees/3
